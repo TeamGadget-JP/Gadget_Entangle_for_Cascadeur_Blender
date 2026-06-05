@@ -1,23 +1,192 @@
 # Gadget Entangle for Cascadeur / Blender (GECB)
+
+Gadget Entangle for Cascadeur / Blender (GECB) is a free real-time synchronization tool designed to connect Cascadeur and Blender.
+
+GECB allows Cascadeur character animation to be previewed directly inside Blender in real time.
+
+---
+
+## Main Features
+
+1. Real-time synchronization between Cascadeur and Blender.
+2. Synchronization works regardless of Blender's Object Mode or Pose Mode.
+3. Synchronization can also work while Blender's timeline animation is playing, as long as the target bones are not controlled by keyframes.
+4. Up to 4 characters can be synchronized at the same time, depending on your PC performance.
+5. Zero Calibration is used to align the character state between Cascadeur and Blender.
+6. Zero Calibration data can be saved and reused.
+
+---
+
+## System Requirements
+
+- Windows only  
+  GECB uses Windows API internally.
+
+- Tested versions  
+  - Cascadeur 2026.1.3  
+  - Blender 5.1
+
+- Tested PC environment  
+  - GPU: NVIDIA RTX 3060 12GB  
+  - CPU: AMD Ryzen 7 8-Core  
+  - RAM: 32GB
+
+- Cascadeur License  
+  GECB requires a valid paid Cascadeur license.  
+  The free version of Cascadeur is not supported.
+
+---
+
+## Character Requirements
+
+GECB is designed for characters that follow a CC-compatible bone hierarchy and naming convention.
+
+Please refer to the sample character for the expected bone structure and bone naming rules.
+
+### Important Notes
+
+- Bone hierarchy must match the expected structure.
+- Bone orientation must be consistent.
+- Bone naming must follow the supported naming convention.
+- Custom bone names may require manual rig setup in Cascadeur.
+- Rigify, Auto-Rig Pro, and other custom controller rig systems are outside the scope of GECB.
+
+GECB synchronizes raw skeletal bones directly.  
+It is not a universal rig conversion tool.
+
+---
+
+## Installation and Usage
+
+Please refer to the TeamGadget YouTube channel for installation and usage instructions.
+
+YouTube:
+https://www.youtube.com/@TeamGadget
+
+---
+
+## Support Policy
+
+GECB is provided completely free of charge and as-is.
+
+The developer is an individual FA / factory automation engineer with a separate full-time profession.  
+Because of this, providing technical support for individual environments is not realistically possible.
+
+This tool is provided as:
+
+- Free software
+- No support
+- No warranty
+- Use at your own risk
+
+Bug reports and feedback are welcome, but support, updates, or fixes are not guaranteed.
+
+---
+
+## Disclaimer
+
+GECB is an independent project developed by TeamGadget.
+
+Cascadeur is a trademark and/or property of Nekki.  
+Blender is a trademark and/or property of Blender Foundation.
+
+This project is not affiliated with, endorsed by, sponsored by, or officially supported by Nekki or Blender Foundation.
+
+=======================================================================================================================
+
+# Gadget Entangle for Cascadeur / Blender (GECB)
+
+Gadget Entangle for Cascadeur / Blender（GECB）は、CascadeurとBlenderをリアルタイムで接続するための無料ツールです。
+
+Cascadeurで作成・調整したキャラクターアニメーションを、Blender上でリアルタイムに確認することを目的としています。
+
+---
+
 ## GECBの主要機能
-1. CascadeurとBlenderをシームレスに繋ぐリアルタイム同期
-2. BlenderのObjectMode/PoseModeどちらでも関係なく同期します
-3. Blenderでタイムライン・アニメーションを再生している最中でも同期します(キーフレームが打たれてないこと)
-4. 同時に4体のキャラクターを同期する事が可能です(PCスペックに依存します)
+
+1. CascadeurとBlenderをシームレスに繋ぐリアルタイム同期。
+2. BlenderのObject Mode / Pose Modeに関係なく同期可能。
+3. Blender側でタイムライン・アニメーションを再生している最中でも同期可能。  
+   ただし、対象ボーンにキーフレームが打たれていないことが前提です。
+4. 最大4体までのキャラクターを同時同期可能。  
+   ただし、PCスペックに依存します。
+5. Zero Calibrationにより、CascadeurとBlender間のキャラクター状態を補正。
+6. Zero Calibration情報の保存・再利用に対応。
+
+---
 
 ## 動作環境
-Windows専用：コード内でWindowsAPIを使用しているため
-動作確認バージョン： Cascadeur2026.1.3 Blender5.1 
-動作確認PC：RTX3060-12GB AMD-Ryzen7-8Core Ram32GB
+
+- Windows専用  
+  GECBはコード内でWindows APIを使用しています。
+
+- 動作確認バージョン  
+  - Cascadeur 2026.1.3  
+  - Blender 5.1
+
+- 動作確認PC  
+  - GPU: NVIDIA RTX 3060 12GB  
+  - CPU: AMD Ryzen 7 8-Core  
+  - RAM: 32GB
+
+- Cascadeurライセンスについて  
+  GECBの利用には、有効なCascadeur有償ライセンスが必要です。  
+  Cascadeur無料版では利用できません。
+
+---
 
 ## 前提条件
-1. キャラクターのボーン構造（サンプル・キャラクター参照）
-2. キャラクターのボーン命名規則（サンプル・キャラクター参照）
 
-## 導入手順
-Youtubeチャンネル参照
+GECBは、CC互換のボーン階層・命名規則を持つキャラクターを対象に設計しています。
+
+想定されるボーン構造およびボーン命名規則については、サンプルキャラクターを参照してください。
+
+### 重要事項
+
+- ボーン階層が想定構造に一致していること。
+- ボーンの向きが一致していること。
+- ボーン命名規則が対応形式に沿っていること。
+- 独自ボーン名を使用したキャラクターでは、Cascadeur側で手動リグ設定が必要になる場合があります。
+- Rigify、Auto-Rig Pro、その他カスタム・コントローラーリグとの共存・変換はGECBの対象範囲外です。
+
+GECBは、生ボーンの姿勢を直接同期するツールです。  
+万能リグ変換ツールではありません。
+
+---
+
+## 導入手順・使用方法
+
+導入手順および使用方法については、TeamGadgetのYouTubeチャンネルを参照してください。
+
+YouTube:
+https://www.youtube.com/@TeamGadget
+
+---
 
 ## サポートについて
-・ サポートなし（現状渡し）: 開発者は普段、別の本業を抱えるFA系個人エンジニアです。
-   そのため、個別の環境に合わせた技術サポートを提供することは事実上不可能です。
-   本ツールは「完全無料・サポート対象外」として提供されます。
+
+GECBは完全無料・現状渡しで提供されます。
+
+開発者は普段、別の本業を抱えるFA系個人エンジニアです。  
+そのため、個別の環境に合わせた技術サポートを提供することは事実上不可能です。
+
+本ツールは以下の条件で提供されます。
+
+- 完全無料
+- サポートなし
+- 無保証
+- 自己責任での利用
+
+不具合報告やフィードバックは歓迎しますが、サポート、アップデート、修正対応を保証するものではありません。
+
+---
+
+## 免責事項
+
+GECBはTeamGadgetによる独立したプロジェクトです。
+
+CascadeurはNekkiの商標または財産です。  
+BlenderはBlender Foundationの商標または財産です。
+
+本プロジェクトは、NekkiまたはBlender Foundationによる公式製品ではなく、承認、提携、スポンサー提供、または公式サポートを受けたものではありません。
+
