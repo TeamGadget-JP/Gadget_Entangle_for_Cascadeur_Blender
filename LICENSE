@@ -1,0 +1,182 @@
+Gadget Entangle for Cascadeur Blender (GECB)
+End User License Agreement (EULA)
+Copyright (c) 2026 TeamGadget (Abe). All rights reserved.
+
+By downloading, installing, or using "Gadget Entangle for Cascadeur Blender" (hereinafter referred to as "the Software" or "GECB"), you agree to be bound by the terms of this End User License Agreement.
+
+1. OVERVIEW
+
+GECB is a free real-time synchronization tool designed to connect Cascadeur and Blender.
+
+The Software consists mainly of two components:
+
+a) Blender-side component
+b) Cascadeur-side Python component
+
+The Cascadeur-side Python component is distributed in compiled form because it includes Cascadeur license authentication logic.
+
+2. GRANT OF LICENSE
+
+The Developer, TeamGadget, grants you a personal, non-exclusive, non-transferable, and free license to use the Software for personal or commercial animation production.
+
+Use of the Software requires a valid paid Cascadeur license, such as Cascadeur Indie, Pro, or Teams.
+The Software is not available for use with the free version of Cascadeur.
+
+Open-source components included in this project may be used in accordance with the open-source license provided in the repository.
+
+However, the compiled Cascadeur-side component and its license authentication logic are not open source and are subject to the restrictions described in this EULA.
+
+3. RESTRICTIONS
+
+You may NOT, under any circumstances:
+
+a) Redistribute, share, sublicense, mirror, upload, or host the compiled Cascadeur-side component on any other platform, website, repository, cloud storage, or file-sharing service.
+
+b) Reverse engineer, decompile, disassemble, decrypt, unpack, or otherwise attempt to discover, extract, reconstruct, or bypass the source code, internal logic, or license authentication mechanism of the compiled Cascadeur-side component.
+
+c) Remove, bypass, disable, modify, or interfere with any license authentication, protection mechanism, copyright notice, or attribution included in the Software.
+
+d) Modify, alter, or create derivative works based on the compiled Cascadeur-side component.
+
+e) Sell, rent, lease, resell, bundle, or commercially monetize the Software itself.
+
+f) Use the Software in a way that violates the license terms of Cascadeur, Blender, or any other third-party software used together with GECB.
+
+4. OPEN-SOURCE COMPONENTS
+
+Some parts of GECB may be provided as open-source components.
+
+You may inspect, modify, or use those open-source components according to the license terms specified in the repository.
+
+This does not grant permission to reverse engineer, modify, redistribute, or bypass the compiled Cascadeur-side component or its license authentication mechanism.
+
+5. NO SUPPORT OBLIGATION
+
+The Software is provided free of charge.
+
+The Developer is under no obligation to provide technical support, updates, bug fixes, compatibility fixes, or maintenance.
+
+Any updates, fixes, or improvements may be provided at the sole discretion of the Developer.
+
+6. DISCLAIMER OF WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+THE DEVELOPER DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY, RELIABILITY, OR COMPATIBILITY WITH ANY SPECIFIC ENVIRONMENT, PROJECT, CHARACTER RIG, OR WORKFLOW.
+
+7. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL THE DEVELOPER BE LIABLE FOR ANY CLAIM, DAMAGE, LOSS, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR INABILITY TO USE THE SOFTWARE.
+
+THIS INCLUDES, BUT IS NOT LIMITED TO, DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR BUSINESS-RELATED DAMAGES, LOSS OF DATA, LOSS OF PROFITS, PROJECT FAILURE, PRODUCTION DELAYS, OR INTERRUPTION OF WORK.
+
+8. THIRD-PARTY SOFTWARE AND TRADEMARKS
+
+Cascadeur is a trademark and/or property of Nekki.
+Blender is a trademark and/or property of Blender Foundation.
+
+This Software is an independent project developed by TeamGadget.
+This Software is not affiliated with, endorsed by, sponsored by, or officially supported by Nekki or Blender Foundation.
+
+9. TERMINATION
+
+If you violate any term of this EULA, your license to use the Software will terminate automatically.
+
+Upon termination, you must immediately stop using the Software and delete all copies of the compiled Cascadeur-side component in your possession.
+
+10. ACCEPTANCE
+
+By downloading, installing, or using the Software, you acknowledge that you have read, understood, and agreed to this EULA.
+
+Gadget Entangle for Cascadeur Blender (GECB)
+ソフトウェア利用規約（EULA）
+
+Copyright (c) 2026 TeamGadget（阿部）. All rights reserved.
+
+「Gadget Entangle for Cascadeur Blender」（以下「本ソフトウェア」または「GECB」）をダウンロード、インストール、または使用することにより、利用者は本利用規約のすべての条項に同意したものとみなされます。
+
+1. 概要
+
+GECBは、CascadeurとBlenderをリアルタイムで同期するための無料ツールです。
+
+本ソフトウェアは、主に以下の2つのコンポーネントで構成されます。
+
+a) Blender側コンポーネント
+b) Cascadeur側Pythonコンポーネント
+
+Cascadeur側Pythonコンポーネントには、Cascadeurライセンス認証処理が含まれるため、コンパイル済み形式で配布されます。
+
+2. 使用許諾
+
+開発者であるTeamGadgetは、利用者に対し、本ソフトウェアを無償で使用する、非独占的かつ譲渡不能な権利を許諾します。
+
+本ソフトウェアは、個人・商用を問わず、映像制作、アニメーション制作、その他制作用途に使用できます。
+
+ただし、本ソフトウェアの利用には、Cascadeur Indie、Pro、Teamsなどの有効な有償Cascadeurライセンスが必要です。
+Cascadeur無料版では本ソフトウェアを利用できません。
+
+本プロジェクトに含まれるオープンソースコンポーネントについては、リポジトリ内で指定されたオープンソースライセンスに従って利用できます。
+
+ただし、コンパイル済みのCascadeur側コンポーネントおよびそのライセンス認証処理はオープンソースではなく、本利用規約に定める制限の対象となります。
+
+3. 禁止事項
+
+利用者は、いかなる場合においても、以下の行為を行ってはなりません。
+
+a) コンパイル済みのCascadeur側コンポーネントを、他のプラットフォーム、Webサイト、リポジトリ、クラウドストレージ、ファイル共有サービス等へ転載、再配布、共有、サブライセンス、ミラーリング、アップロード、またはホスティングする行為。
+
+b) コンパイル済みのCascadeur側コンポーネントに対するリバースエンジニアリング、逆コンパイル、逆アセンブル、復号、展開、その他ソースコード、内部処理、またはライセンス認証機構を抽出、解析、再構築、または回避しようとする行為。
+
+c) 本ソフトウェアに含まれるライセンス認証、保護機構、著作権表示、注意書き、または帰属表示を削除、回避、無効化、改変、または妨害する行為。
+
+d) コンパイル済みのCascadeur側コンポーネントを改変、変更、またはそれを元にした二次的著作物を作成する行為。
+
+e) 本ソフトウェア自体を販売、貸与、リース、再販売、バンドル販売、または直接的に収益化する行為。
+
+f) Cascadeur、Blender、またはGECBと併用する第三者ソフトウェアのライセンス条件に違反する形で本ソフトウェアを使用する行為。
+
+4. オープンソースコンポーネントについて
+
+GECBの一部は、オープンソースコンポーネントとして提供される場合があります。
+
+これらのオープンソースコンポーネントについては、リポジトリ内で指定されたライセンス条件に従い、閲覧、改変、利用することができます。
+
+ただし、これはコンパイル済みのCascadeur側コンポーネント、またはそのライセンス認証機構をリバースエンジニアリング、改変、再配布、回避する権利を許諾するものではありません。
+
+5. サポート義務について
+
+本ソフトウェアは無償で提供されます。
+
+開発者は、本ソフトウェアに関する技術サポート、アップデート、バグ修正、互換性対応、保守を提供する義務を負いません。
+
+アップデート、修正、改善を行う場合は、開発者の任意により提供されます。
+
+6. 無保証
+
+本ソフトウェアは「現状有姿（As-Is）」で提供されます。
+
+開発者は、本ソフトウェアについて、明示または黙示を問わず、商品性、特定目的への適合性、第三者の権利非侵害、正確性、信頼性、特定環境・特定プロジェクト・特定キャラクターリグ・特定ワークフローとの互換性を含め、いかなる保証も行いません。
+
+7. 損害賠償の制限
+
+本ソフトウェアの使用、または使用不能に起因または関連して発生した、いかなる請求、損害、損失、その他の責任についても、開発者は一切の責任を負いません。
+
+これには、直接損害、間接損害、偶発的損害、特別損害、派生的損害、事業上の損害、データの消失、利益の損失、プロジェクトの失敗、制作遅延、業務中断などを含みますが、これらに限定されません。
+
+8. 第三者ソフトウェアおよび商標について
+
+CascadeurはNekkiの商標または財産です。
+BlenderはBlender Foundationの商標または財産です。
+
+本ソフトウェアはTeamGadgetによる独立したプロジェクトです。
+本ソフトウェアは、NekkiまたはBlender Foundationによる公式製品ではなく、承認、提携、スポンサー提供、または公式サポートを受けたものではありません。
+
+9. 利用許諾の終了
+
+利用者が本規約のいずれかの条項に違反した場合、本ソフトウェアの使用許諾は自動的に終了します。
+
+その場合、利用者は直ちに本ソフトウェアの使用を中止し、保有するコンパイル済みCascadeur側コンポーネントのすべてのコピーを削除しなければなりません。
+
+10. 同意
+
+本ソフトウェアをダウンロード、インストール、または使用することにより、利用者は本利用規約を読み、理解し、同意したものとみなされます。
