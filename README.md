@@ -13,7 +13,7 @@ GECB allows Cascadeur character animation to be previewed directly inside Blende
 3. Synchronization can also work while Blender's timeline animation is playing, as long as the target bones are not controlled by keyframes.
 4. Up to 4 characters can be synchronized at the same time, depending on your PC performance.
 5. Zero Calibration is used to align the character state between Cascadeur and Blender.
-6. Zero Calibration data can be saved and reused.
+6. Saving and clearing Zero Calibration data.
 
 ---
 
@@ -132,7 +132,7 @@ Cascadeurで作成・調整したキャラクターアニメーションを、Bl
 4. 最大4体までのキャラクターを同時同期可能。  
    ただし、PCスペックに依存します。
 5. Zero Calibrationにより、CascadeurとBlender間のキャラクター状態を補正。
-6. Zero Calibration情報の保存・再利用に対応。
+6. Zero Calibration情報の保存と解除。
 
 ---
 
