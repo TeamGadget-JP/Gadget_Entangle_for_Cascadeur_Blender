@@ -83,13 +83,27 @@ YouTube:
 [https://www.youtube.com/@TeamGadget](https://www.youtube.com/channel/UCj9OYwzMAIgYAeVkTV4wczw)
 
 ## Request for Feedback
-The 'SampleCharacter' provided was created by taking my own mesh model through AccuRIG to perform CC-compatible skeleton generation and binding. Currently, 
-this is the most efficient method I've found to build a CC-compatible skeleton without using Character Creator 4 or 5.
-If you own CC4 or 5, I highly recommend using the official bridge add-on to import your characters. It achieves an incredibly high level of synchronization accuracy—virtually flawless.
-Regarding bone configuration, the 'Hip' bone is the most critical. To ensure precision, it is an absolute requirement that the Hip's transform (Tail: X=0, Y=0) is maintained; please keep this in mind if you are building your own generic rigs.
-In my case, the 'SampleCharacter' was exported from AccuRIG with a tilted Hip, so I had to manually correct it in Blender’s Edit Mode. As a result, the precision of the fingertip positions is slightly compromised.
-If anyone knows of a more optimal workflow for this, I would greatly appreciate your feedback.
-I am committed to making this tool even better in future versions by incorporating your suggestions and insights.
+The 'SampleCharacter' provided was created by taking my own mesh model through AccuRIG to<br>
+perform CC-compatible skeleton generation and binding.<br>
+
+Currently, this is the most efficient method I've found to build a CC-compatible skeleton without<br>
+using Character Creator 4 or 5.
+
+If you own CC4 or 5, I highly recommend using the official bridge add-on to import your characters.<br>
+It achieves an incredibly high level of synchronization accuracy—virtually flawless.<br>
+Regarding bone configuration, the 'Hip' bone is the most critical.<br>
+
+To ensure precision, it is an absolute requirement that the Hip's transform (Tail: X=0, Y=0) is<br>
+maintained; please keep this in mind if you are building your own generic rigs.<br>
+
+In my case, the 'SampleCharacter' was exported from AccuRIG with a tilted Hip, so I had to manually<br>
+correct it in Blender’s Edit Mode.<br>
+
+As a result, the precision of the fingertip positions is slightly compromised.If anyone knows of a<br>
+more optimal workflow for this, I would greatly appreciate your feedback.<br>
+
+I am committed to making this tool even better in future versions by incorporating your suggestions<br>
+and insights.
 
 ---
 
