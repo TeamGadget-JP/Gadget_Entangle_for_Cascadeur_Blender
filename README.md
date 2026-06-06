@@ -78,21 +78,22 @@ For this reason, GECB uses CC-compatible skeletons as the recommended standard f
 6. To stop the Cascadeur-side sender, select `Commands -> GECB Sender(v1_0)` again.  
    **Note:** Always disconnect before closing the scene or exiting the application.
 
-How to Use
-Step 1: Prepare the character you wish to synchronize (original models, CC4/5, free models, etc.).
-Step 2: Import the character into Blender. Set Blender’s units to 1cm to ensure the character is at real-world scale.
-Step 3: Ensure the bone structure, orientation, and naming are CC-compatible. You can use tools like AccuRIG to achieve this.
-Step 4: Export the character as an FBX to Cascadeur. For FBX settings, please refer to the following URL:
-　　　　　https://cascadeur.com/help/getting_started/import_fbxdae/import_from_blender
-Step 5: Import into Cascadeur and complete the rigging process. Then, run Commands -> Go to T-Pose to set the character to the base pose.
-　　　　(Note: Do not move the character from this pose.) Step 6: In Cascadeur, select Commands -> GECB Sender (v1_0) to start the connection.
-Step 7: Open the GECB panel in Blender and set your character to 'Slot 0'.
-Step 8: Click the 'START SYNC' button. The character may deform momentarily, but this is normal.
-Step 9: Click the 'Zero Calib (Live Stream)' button and then 'OK'. If the character matches the pose in Cascadeur, the synchronization is successful.
-　　　　(If the poses do not match, please double-check your bone structure, orientation, and naming.) Step 10: Sync complete! Welcome to the world of real-time previz!
+How to Use<br>
+Step 1: Prepare the character you wish to synchronize (original models, CC4/5, free models, etc.).<br>
+Step 2: Import the character into Blender. Set Blender’s units to 1cm to ensure the character is at real-world scale.<br>
+Step 3: Ensure the bone structure, orientation, and naming are CC-compatible. You can use tools like AccuRIG to achieve this.<br>
+Step 4: Export the character as an FBX to Cascadeur. For FBX settings, please refer to the following<br> 
+　　　　URL:https://cascadeur.com/help/getting_started/import_fbxdae/import_from_blender<br>
+Step 5: Import into Cascadeur and complete the rigging process. Then, run Commands -> Go to T-Pose to set the character to the base pose.<br>
+　　　　(Note: Do not move the character from this pose.) Step 6: In Cascadeur, select Commands -> GECB Sender (v1_0) to start the connection.<br>
+Step 7: Open the GECB panel in Blender and set your character to 'Slot 0'.<br>
+Step 8: Click the 'START SYNC' button. The character may deform momentarily, but this is normal.<br>
+Step 9: Click the 'Zero Calib (Live Stream)' button and then 'OK'. If the character matches the pose in Cascadeur, the synchronization is successful.<br>
+　　　　(If the poses do not match, please double-check your bone structure, orientation, and naming.) <br>
+Step 10: Sync complete! Welcome to the world of real-time previz!<br>
 
-If you find GECB useful, please consider subscribing to my channel and liking the video!
-YouTube: https://www.youtube.com/@TeamGadget
+If you find GECB useful, please consider subscribing to my channel and liking the video!<br>
+YouTube: https://www.youtube.com/@TeamGadget<br>
 
 ## Request for Feedback
 The 'SampleCharacter' provided was created by taking my own mesh model through AccuRIG to<br>
