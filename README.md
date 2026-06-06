@@ -69,16 +69,11 @@ For this reason, GECB uses CC-compatible skeletons as the recommended standard f
 
 1. Place `GECB_Sender_v1_0.pyc` into the Cascadeur Python plugin folder:  
    `[Cascadeur installation folder]\resources\scripts\python\commands\`
-
 2. Install `GECB_Receiver_v1_0.zip` as a Blender add-on.
-
 3. Open `SampleCharacter.blend` and `SampleCharacter.casc`.
-
 4. In Cascadeur, select `Commands -> GECB Sender(v1_0)`.  
    If `[GECB] Sender Started (v1.0)` appears in the Event Log, the sender is ready.
-
 5. In Blender, start the connection from `N Panel -> GECB -> START SYNC`.
-
 6. To stop the Cascadeur-side sender, select `Commands -> GECB Sender(v1_0)` again.  
    **Note:** Always disconnect before closing the scene or exiting the application.
 
