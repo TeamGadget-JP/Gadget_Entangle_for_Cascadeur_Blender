@@ -121,7 +121,8 @@ This tool is provided as:
 - No warranty
 - Use at your own risk
 
-While I will do my best to address any bug reports and issues, please understand that my availability is irregular. Thank you for your patience and understanding.
+While I will do my best to address any bug reports and issues, please understand that my availability is irregular.<br>
+Thank you for your patience and understanding.
 
 ---
 
@@ -222,12 +223,16 @@ YouTube:[https://www.youtube.com/@TeamGadget](https://www.youtube.com/channel/UC
 ## フィードバックのお願い
 SampleCharacterは自分のメッシュモデルをAccuRIGを通してCC互換スケルトン&バインドを行って作成したものです。<br>
 いまのところCC4&5を使わずにCC互換スケルトンを最短で構築する方法はこれしか思いつきませんでした。<br>
+
 CC4&5を所持されている方は公式ブリッジアドオンを使用してキャラクターをインポートしますとかなり高精度な<br>
 同期キャラクターを実現できます。(狂いは全く無いと言って良いレベルです)<br>
+
 ボーン構成で特に重要なのはHipです。HipのTransformでTail:X=0 Y=0が精度を確保する上で絶対の仕様となりますので、<br>
 汎用を組まれる方は特にここに注意してください。<br>
+
 SampleCharacterはHipが傾いた状態でAccuRIGから出力されてたことから、仕方なくBlenderのエディットモードで修正を施しました。<br>
 その影響で指先等の位置精度が若干悪くなっています。この辺は最適なフローがありましたら是非フィードバックを頂けるとありがたいです。
+
 今後のバージョンで皆様から頂いた意見を反映して、より一層良いツールになって行ければと思います。<br>
 
 ---
