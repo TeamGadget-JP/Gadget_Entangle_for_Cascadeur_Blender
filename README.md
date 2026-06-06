@@ -121,9 +121,7 @@ Blender is a trademark and/or property of Blender Foundation.
 This project is not affiliated with, endorsed by, sponsored by, or officially supported by Nekki or Blender Foundation.
 
 ---
----
----
-
+# 日本語 #
 # Gadget Entangle for Cascadeur / Blender (GECB)
 
 Gadget Entangle for Cascadeur / Blender（GECB）は、CascadeurとBlenderをリアルタイムで接続するための無料ツールです。
