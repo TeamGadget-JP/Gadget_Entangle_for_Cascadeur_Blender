@@ -89,7 +89,8 @@ Step 5: Import into Cascadeur and complete the rigging process. Then, run Comman
 Step 6: In Cascadeur, select Commands -> GECB Sender (v1_0) to start the connection.<br>
 Step 7: Open the GECB panel in Blender and set your character to 'Slot 0'.<br>
 Step 8: Click the 'START SYNC' button. The character may deform momentarily, but this is normal.<br>
-Step 9: Click the 'Zero Calib (Live Stream)' button and then 'OK'. If the character matches the pose in Cascadeur, the synchronization is successful.<br>
+Step 9: Click the 'Zero Calib (Live Stream)' button and then 'OK'. <br>
+　　　　If the character matches the pose in Cascadeur, the synchronization is successful.<br>
 　　　　(If the poses do not match, please double-check your bone structure, orientation, and naming.) <br>
 Step 10: Sync complete! Welcome to the world of real-time previz!<br>
 
