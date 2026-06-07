@@ -294,5 +294,3 @@ CascadeurはNekkiの商標または財産です。
 BlenderはBlender Foundationの商標または財産です。
 
 本プロジェクトは、NekkiまたはBlender Foundationによる公式製品ではなく、承認、提携、スポンサー提供、または公式サポートを受けたものではありません。
-<img width="311" height="400" alt="image" src="https://github.com/user-attachments/assets/86d8862c-59fd-418a-8af6-a8b366d84d52" />
-
