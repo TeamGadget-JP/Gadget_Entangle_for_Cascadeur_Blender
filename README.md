@@ -279,7 +279,7 @@ step10: 同期完了です！リアルタイム・プレビズの世界へよう
 HipボーンのHead : X=0 Y=0 Tail : X=0 Y=0 Roll = 0 は絶対に守って下さい。<br>
 AccuRIGを通してインポートしたキャラクターは高確率でHipボーンに傾きが入ります。<br>
 それをボタン一つで修正するスクリプトも用意しました。<br>
-accurig_hip_fix_addon.py<br>
+`accurig_hip_fix_addon.py`<br>
 必要に応じてお使いください。アドオン登録しますとGECBのUIに統合されます。<br>
 
 複数キャラクターの同期について<br>
