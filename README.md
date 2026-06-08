@@ -95,6 +95,31 @@ Step 9: Click the 'Zero Calib (Live Stream)' button and then 'OK'. <br>
 　　　　(If the poses do not match, please double-check your bone structure, orientation, and naming.) <br>
 Step 10: Sync complete! Welcome to the world of real-time previz!<br>
 
+## Further Details<br>
+When synchronizing custom characters or those processed through AccuRIG, the most important factor is ensuring that the Hip bone has no unintended rotation.<br>
+<img width="300" height="391" alt="image" src="https://github.com/user-attachments/assets/865c8cc6-78d1-44ed-b8d9-1e71e8c946eb" /><br>
+Please strictly ensure the following Hip bone coordinates: Head: X=0 Y=0, Tail: X=0 Y=0, and Roll = 0.<br>
+Characters imported via AccuRIG have a high probability of importing with a tilted Hip bone.<br>
+I have provided a script that fixes this issue with a single click.<br>
+`accurig_hip_fix_addon.py`<br>
+Please use it as needed. Once installed as an add-on, it will be integrated directly into the GECB UI.<br>
+
+**About Synchronizing Multiple Characters**<br>
+<img width="300" height="457" alt="image" src="https://github.com/user-attachments/assets/c4485158-1033-415a-86c2-b270fbd6729c" /><br>
+GECB supports the simultaneous connection of up to 4 characters.<br>
+GECB identifies characters by checking for a prefix attached to their bone names.<br>
+Example: `CC_Base_Hip` -> `character1:CC_Base_Hip`<br>
+In Blender, Slot 0 uses no prefix. From Slot 1 onwards, prefixes such as `character1:`, `character2:`, etc., are automatically assigned based on the slot.<br>
+
+**How to Setup Multiple Characters in Cascadeur**<br>
+Example: Setting up 2 characters<br>
+1. Create a scene, import the 1st character normally, and complete the rigging.<br>
+2. Create a new, separate scene for the 2nd character. Import and rig the 2nd character normally.<br>
+3. Save and close the scene containing the 2nd character.<br>
+4. Return to the scene with the 1st character, and select `File -> Import -> Import Scene To Current...` to import the 2nd character's scene.<br>
+5. The prefix `character1:` will automatically be added to the 2nd character's bone names.<br>
+6. Follow the exact same procedure for a 3rd character and so on.<br>
+
 If you find GECB useful, please consider subscribing to my channel and liking the video!<br>
 YouTube: https://www.youtube.com/@TeamGadget<br>
 
