@@ -120,6 +120,21 @@ Example: Setting up 2 characters<br>
 5. The prefix `character1:` will automatically be added to the 2nd character's bone names.<br>
 6. Follow the exact same procedure for a 3rd character and so on.<br>
 
+## Applying the Final Motion Created in Cascadeur to a Blender Character via FBX<br>
+First, it must be explained that the bone animation data used for real-time synchronization and the bone animation data exported to FBX are completely different.<br>
+The requirement for real-time synchronization is that the character is in a T-pose or A-pose, and has been zero-calibrated immediately after syncing.<br>
+Conversely, a character in a state ready to accept an FBX must be in a T-pose or A-pose, with its zero-calibration cleared.<br>
+Therefore, you must follow the steps below.<br>
+
+1. **Return to T-Pose (Reset to Origin)**<br>
+   Return the character to the T-pose (initial pose/rest pose) in both Cascadeur and Blender.<br>
+2. **Stop Synchronization (Disconnect Communication)**<br>
+   Click `STOP SYNC` on the Blender-side GECB panel to completely cut off real-time communication.<br>
+3. **Clear Calibration (Memory Initialization)**<br>
+   Click `Clear Calibrate` on the GECB panel.<br>
+4. **Apply FBX (Inject Production Data)**<br>
+   Export the animation as an FBX from Cascadeur, and import (or retarget) it into the Blender character.<br>
+
 If you find GECB useful, please consider subscribing to my channel and liking the video!<br>
 YouTube: https://www.youtube.com/@TeamGadget<br>
 
@@ -298,17 +313,20 @@ Cascadeurでの複数キャラクターセットアップ方法<br>
 5. 2体目のボーン名に自動でcharacter1:のプレフィックスが付与されます。<br>
 6. 3体目も同じ手順となります。<br>
 
-## GECBからFBXへの安全な移行フロー<br>
-GECBのリアルタイム同期（強制的な絶対空間上書き）と、Blender標準のFBXインポーター（自動的なボーン軸変換）が競合すると、モデルの関節が破綻する原因になります。
-GECBでモーションを作成した後、最終的なアニメーションをFBXとしてBlenderに適用（ベイク）する場合は、必ず以下の手順で「同期の切断」と「補正メモリの初期化」を行ってください。
-1. Tポーズへ戻す（原点復帰）
-   CascadeurとBlenderの両方で、キャラクターをTポーズ（初期姿勢/レストポーズ）に戻します。
-2. 同期の停止（通信切断）
-   Blender側のGECBパネルで `STOP SYNC` をクリックし、リアルタイム通信を完全に遮断します。
-3. キャリブレーションの消去（メモリ初期化）
-   GECBパネルで `Clear Calibrate` をクリックします。
-4. FBXの適用（本番データの流し込み）
-   CascadeurからアニメーションをFBXとしてエクスポートし、Blenderのキャラクターにインポート（またはリターゲティング）します。
+## Cascadeurで作ったモーションの最終版をFBXを通じてBlenderのキャラクターに適用する場合<br>
+まず説明して置かなければならないのが、リアルタイム同期で使われているボーンアニメーションのデータと<br>
+FBXにエクスポートされたボーンアニメーションデータは全く別物です。<br>
+リアルタイム同期をする時の条件はTポーズもしくはAポーズであること、同期直後にゼロキャリブレーションされたキャラクターであることです。<br>
+逆にFBXを適用できる状態のキャラクターはTポーズもしくはAポーズであること、ゼロキャリブレーションを解除されたキャラクターであることです。<br>
+したがって下記の手順を踏むことになります。<br>
+1. Tポーズへ戻す（原点復帰）<br>
+   CascadeurとBlenderの両方で、キャラクターをTポーズ（初期姿勢/レストポーズ）に戻します。<br>
+2. 同期の停止（通信切断）<br>
+   Blender側のGECBパネルで `STOP SYNC` をクリックし、リアルタイム通信を完全に遮断します。<br>
+3. キャリブレーションの消去（メモリ初期化）<br>
+   GECBパネルで `Clear Calibrate` をクリックします。<br>
+4. FBXの適用（本番データの流し込み）<br>
+   CascadeurからアニメーションをFBXとしてエクスポートし、Blenderのキャラクターにインポート（またはリターゲティング）します。<br>
 
 GECBを使用されてもし良かったらチャネル登録、高評価お願いします。<br>
 YouTube:[https://www.youtube.com/@TeamGadget](https://www.youtube.com/channel/UCj9OYwzMAIgYAeVkTV4wczw)
