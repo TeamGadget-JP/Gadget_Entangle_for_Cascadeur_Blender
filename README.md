@@ -51,7 +51,7 @@ Please refer to the sample character for the expected bone structure and bone na
 
 GECB directly synchronizes raw skeletal bone poses.
 It does not include a general-purpose rig conversion feature, 
-so we recommend preparing the character’s bone setup using free software such as AccuRIG.
+so we recommend preparing the character’s bone setup using free software such as AccuRIG.<br>
 https://actorcore.reallusion.com/auto-rig/accurig
 
 ### Why GECB Uses a CC-Compatible Bone Hierarchy and Naming Convention
