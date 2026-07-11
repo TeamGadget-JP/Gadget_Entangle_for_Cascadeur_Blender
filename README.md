@@ -1,3 +1,9 @@
+Please give the new version a try!<br>
+[https://github.com/TeamGadget-JP/Cascadeur_Entangle_for_Unity](https://github.com/TeamGadget-JP/Gadget_Entangle_for_Cascadeur_Blender)<br>
+
+是非、新バージョンをご利用下さい！<br>
+[https://github.com/TeamGadget-JP/Cascadeur_Entangle_for_Unity](https://github.com/TeamGadget-JP/Gadget_Entangle_for_Cascadeur_Blender)<br>
+
 # Gadget Entangle for Cascadeur / Blender (GECB)
 
 Gadget Entangle for Cascadeur / Blender (GECB) is a free real-time synchronization tool designed to connect Cascadeur and Blender.
