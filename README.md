@@ -1,10 +1,10 @@
 ## ⚠️ This is the old version.<br>
 ## Please use the new version via the link below.<br>
-https://github.com/TeamGadget-JP/Cascadeur_Entangle_for_Blenderr<br>
+https://github.com/TeamGadget-JP/Cascadeur_Entangle_for_Blender<br>
 
 ## ⚠️ ここは旧バージョンです。<br>
 ## 下記のリンクから新バージョン是非ご利用ください<br>
-https://github.com/TeamGadget-JP/Cascadeur_Entangle_for_Blenderr<br>
+https://github.com/TeamGadget-JP/Cascadeur_Entangle_for_Blender<br>
 
 ---
 
