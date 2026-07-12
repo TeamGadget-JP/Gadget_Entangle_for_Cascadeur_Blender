@@ -1,8 +1,12 @@
-Please give the new version a try!<br>
+This is the old version.<br>
+Please use the new version via the link below.<br>
 https://github.com/TeamGadget-JP/Gadget_Entangle_for_Cascadeur_Blender<br>
 
-是非、新バージョンをご利用下さい！<br>
+ここは旧バージョンです。<br>
+下記のリンクから新バージョン是非ご利用ください<br>
 https://github.com/TeamGadget-JP/Gadget_Entangle_for_Cascadeur_Blender<br>
+
+---
 
 # Gadget Entangle for Cascadeur / Blender (GECB)
 
