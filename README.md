@@ -150,51 +150,6 @@ Therefore, you must follow the steps below.<br>
 4. **Apply FBX (Inject Production Data)**<br>
    Export the animation as an FBX from Cascadeur, and import (or retarget) it into the Blender character.<br>
 
-If you find GECB useful, please consider subscribing to my channel and liking the video!<br>
-YouTube: https://www.youtube.com/@TeamGadget<br>
-
-## Request for Feedback
-The 'SampleCharacter' provided was created by taking my own mesh model through AccuRIG to<br>
-perform CC-compatible skeleton generation and binding.<br>
-
-Currently, this is the most efficient method I've found to build a CC-compatible skeleton without<br>
-using Character Creator 4 or 5.
-
-If you own CC4 or 5, I highly recommend using the official bridge add-on to import your characters.<br>
-It achieves an incredibly high level of synchronization accuracy—virtually flawless.<br>
-Regarding bone configuration, the 'Hip' bone is the most critical.<br>
-
-To ensure precision, it is an absolute requirement that the Hip's transform (Head and Tail: X=0, Y=0) is<br>
-maintained; please keep this in mind if you are building your own generic rigs.<br>
-
-In my case, the 'SampleCharacter' was exported from AccuRIG with a tilted Hip, so I had to manually<br>
-correct it in Blender’s Edit Mode.<br>
-
-As a result, the precision of the fingertip positions is slightly compromised.If anyone knows of a<br>
-more optimal workflow for this, I would greatly appreciate your feedback.<br>
-
-I am committed to making this tool even better in future versions by incorporating your suggestions<br>
-and insights.
-
----
-
-## Support Policy
-
-GECB is provided completely free of charge and as-is.
-
-The developer is an individual FA / factory automation engineer with a separate full-time profession.  
-Because of this, providing technical support for individual environments is not realistically possible.
-
-This tool is provided as:
-
-- Free software
-- No support
-- No warranty
-- Use at your own risk
-
-While I will do my best to address any bug reports and issues, please understand that my availability is irregular.<br>
-Thank you for your patience and understanding.
-
 ---
 
 ## Disclaimer
@@ -347,43 +302,6 @@ FBXにエクスポートされたボーンアニメーションデータは全�
    GECBパネルで `Clear Calibrate` をクリックします。<br>
 4. FBXの適用（本番データの流し込み）<br>
    CascadeurからアニメーションをFBXとしてエクスポートし、Blenderのキャラクターにインポート（またはリターゲティング）します。<br>
-
-GECBを使用されてもし良かったらチャネル登録、高評価お願いします。<br>
-YouTube:[https://www.youtube.com/@TeamGadget](https://www.youtube.com/channel/UCj9OYwzMAIgYAeVkTV4wczw)
-
-## フィードバックのお願い
-SampleCharacterは自分のメッシュモデルをAccuRIGを通してCC互換スケルトン&バインドを行って作成したものです。<br>
-いまのところCC4&5を使わずにCC互換スケルトンを最短で構築する方法はこれしか思いつきませんでした。<br>
-
-CC4&5を所持されている方は公式ブリッジアドオンを使用してキャラクターをインポートしますとかなり高精度な<br>
-同期キャラクターを実現できます。(狂いは全く無いと言って良いレベルです)<br>
-
-ボーン構成で特に重要なのはHipです。HipのTransformでHeadとTail:X=0 Y=0が精度を確保する上で絶対の仕様となりますので、<br>
-汎用を組まれる方は特にここに注意してください。<br>
-
-SampleCharacterはHipが傾いた状態でAccuRIGから出力されてたことから、仕方なくBlenderのエディットモードで修正を施しました。<br>
-その影響で指先等の位置精度が若干悪くなっています。<br>
-この辺は最適なフローがありましたら是非フィードバックを頂けるとありがたいです。
-
-今後のバージョンで皆様から頂いた意見を反映して、より一層良いツールになって行ければと思います。<br>
-
----
-
-## サポートについて
-
-GECBは完全無料・現状渡しで提供されます。
-
-開発者は普段、別の本業を抱えるFA系個人エンジニアです。  
-そのため、個別の環境に合わせた技術サポートを提供することは事実上不可能です。
-
-本ツールは以下の条件で提供されます。
-
-- 完全無料
-- サポートなし
-- 無保証
-- 自己責任での利用
-
-バグ不具合報告へはできる限り対応しますが不定期になります。ご理解ください
 
 ---
 
