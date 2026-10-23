@@ -8,15 +8,6 @@ Please note that the launch method has been changed from the "Commands" menu to 
 [Cascadeurインストールフォルダ]/resources/scripts/python/scripts/<br>
 また、CommandsメニューからScriptsメニューからの起動に変更されています、ご注意ください。<br>
 
-
-## ⚠️ This is the old version.<br>
-## Please use the new version via the link below.<br>
-https://github.com/TeamGadget-JP/Cascadeur_Entangle_for_Blender<br>
-
-## ⚠️ ここは旧バージョンです。<br>
-## 下記のリンクから新バージョン是非ご利用ください<br>
-https://github.com/TeamGadget-JP/Cascadeur_Entangle_for_Blender<br>
-
 ---
 
 # Gadget Entangle for Cascadeur / Blender (GECB)
